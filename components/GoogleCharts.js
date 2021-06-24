@@ -5,8 +5,8 @@ import { Chart } from 'react-google-charts';
 export default function GoogleCharts() {
 	return (
 		<Chart
-			width={"500px"}
-			height={"300px"}
+			width={'500px'}
+			height={'300px'}
 			chartType="GeoChart"
 			data={[
 				['Country', 'Popularity'],
@@ -18,8 +18,8 @@ export default function GoogleCharts() {
 				['RU', 700],
 			]}
 			mapsApiKey="YOUR_KEY_HERE"
-			rootProps={{ "data-testid": "1" }}
+			rootProps={{ 'data-testid': '1' }}
 		/>
 	);
-};
+}
 // render(<GoogleCharts />, document.querySelector("#root"));
