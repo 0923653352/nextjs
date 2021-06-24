@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from 'react-dom';
 import { Chart } from 'react-google-charts';
 
-const GoogleCharts = () => {
+export default function GoogleCharts() {
 	return (
 		<Chart
 			width={"500px"}
@@ -22,4 +22,4 @@ const GoogleCharts = () => {
 		/>
 	);
 };
-render(<GoogleCharts />, document.querySelector("#root"));
+// render(<GoogleCharts />, document.querySelector("#root"));
