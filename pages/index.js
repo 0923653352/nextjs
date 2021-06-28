@@ -3,7 +3,10 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import Navbar from '../components/Navbar';
 import Hero1 from '../components/Hero1';
-import GoogleCharts from '../components/GoogleCharts';
+import Hero2 from '../components/Hero2';
+
+import LineChart from '../components/LineChart';
+
 import Hero3 from '../components/Hero3';
 import Hero4 from '../components/Hero4';
 
@@ -33,7 +36,10 @@ export default function Home() {
 				<Navbar />
 				<Hero1 />
 			</section>
-			<GoogleCharts />
+			<Hero2 />
+			<div className='chart'>
+				<LineChart />
+			</div>
 			<Hero3 />
 			<Hero4 />
 		</div>
