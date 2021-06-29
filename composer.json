@@ -1,0 +1,10 @@
+{
+    "name": "kaw/nextjs",
+    "authors": [
+        {
+            "name": "Nawathpolkaw",
+            "email": "nawathpolkaw@gmail.com"
+        }
+    ],
+    "require": {}
+}
