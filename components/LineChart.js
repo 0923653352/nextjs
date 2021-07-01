@@ -1,18 +1,23 @@
-import React from 'react'
-import { Line } from 'react-chartjs-2'
+import React from 'react';
+import { Line } from 'react-chartjs-2';
 
-function LineChart() {
-    const data ={
-        labels: ['Jan','Feb','Mar','Apr','May'],
-        dataSets: [
-            {
-                label: 'sales for 2020 (M)',
-                data: [3, 2, 2, 1, 5]
-            }
-        ]
-    }
+export default function LineChart() {
+	const data = {
+		labels: [
+			'อุณหภูมิ (c)',
+			'ความชื้นอากาศ (%)',
+			'ความชื้นในดิน (%)',
+			'เเสง (lux)',
+			'คุณภาพน้ำ (PH)',
+			'ระดับน้ำ (mm)',
+		],
+		datasets: [
+			{
+				// label: 'sales for 2020 (M)',
+				data: [23, 50, 25, 990, 55, 16],
+			},
+		],
+	};
 
-    return <Line data={data} />
+	return <Line data={data} />;
 }
-
-export default LineChart

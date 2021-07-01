@@ -5,10 +5,9 @@ class Hero2 extends Component {
 	render() {
 		return (
 			
-			<div>
+			<div style={{ width: '100%', height: '250px', position: 'relative' }}>
 				<Map google={this.props.google} zoom={14}>
 					<Marker onClick={this.onMarkerClick} name={'Current location'} />
-
 					<InfoWindow onClose={this.onInfoWindowClose}></InfoWindow>
 				</Map>
 			</div>

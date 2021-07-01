@@ -20,7 +20,6 @@ export default function hero1() {
 									href="https://fonts.gstatic.com"
 									style={{ fontFamily: '"Roboto", sans-serif' }}
 								>
-									
 									<div className="css-4ze69">
 										<svg
 											width={32}
@@ -65,10 +64,10 @@ export default function hero1() {
 												className="card-body"
 												style={{ backgroundColor: '#009f98' }}
 											>
-												<h4 className="card-title  ">
+												<h5 className="card-title  ">
 													อุณหภูมิ
 													<div className="text-center ">35 C</div>
-												</h4>
+												</h5>
 												<p className="card-text ">
 													<a href="#" className="btn btn-light">
 														<svg
@@ -116,12 +115,12 @@ export default function hero1() {
 												className="card-body"
 												style={{ backgroundColor: '#0066ff' }}
 											>
-												<h5 className="card-title ">
+												<h6 className="card-title ">
 													ความชื้นในอากาศ
 													<div className="text-center">
-														<h3>100 %</h3>
+														<h4>100 %</h4>
 													</div>
-												</h5>
+												</h6>
 												<p className="card-text ">
 													<a href="#" className="btn btn-light">
 														<svg
@@ -170,10 +169,10 @@ export default function hero1() {
 												className="card-body"
 												style={{ backgroundColor: '#5b3701' }}
 											>
-												<h4 className="card-title ">
+												<h5 className="card-title ">
 													ความชื้นในดิน
 													<div className="text-center display-7">7 %</div>
-												</h4>
+												</h5>
 												<p className="card-text ">
 													<a href="#" className="btn btn-light">
 														<svg
@@ -210,10 +209,10 @@ export default function hero1() {
 												className="card-body"
 												style={{ backgroundColor: '#93b200' }}
 											>
-												<h4 className="card-title ">
+												<h5 className="card-title ">
 													เเสง
 													<div className="text-center ">987 lux</div>
-												</h4>
+												</h5>
 												<p className="card-text ">
 													<a href="#" className="btn btn-light">
 														<svg
@@ -260,9 +259,9 @@ export default function hero1() {
 												className="card-body"
 												style={{ backgroundColor: '#00388d' }}
 											>
-												<h4 className="card-title ">
+												<h5 className="card-title ">
 													คุณภาพน้ำ <div className="text-center ">84 pH</div>
-												</h4>
+												</h5>
 												<p className="card-text ">
 													<a href="#" className="btn btn-light">
 														<svg
@@ -309,10 +308,10 @@ export default function hero1() {
 												className="card-body"
 												style={{ backgroundColor: '#009653' }}
 											>
-												<h4 className="card-title ">
+												<h5 className="card-title ">
 													ระดับน้ำ
 													<div className="text-center ">18 mm</div>
-												</h4>
+												</h5>
 												<p className="card-text ">
 													<a href="#" className="btn btn-light">
 														<svg

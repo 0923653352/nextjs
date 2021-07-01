@@ -10,6 +10,7 @@ import LineChart from '../components/LineChart';
 import Hero3 from '../components/Hero3';
 import Hero4 from '../components/Hero4';
 
+
 export default function Home() {
 	return (
 		<div>
@@ -37,9 +38,8 @@ export default function Home() {
 				<Hero1 />
 			</section>
 			<Hero2 />
-			<div className='chart'>
-				<LineChart />
-			</div>
+			{/* map */}
+
 			<Hero3 />
 			<Hero4 />
 		</div>
