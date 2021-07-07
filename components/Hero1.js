@@ -126,7 +126,7 @@ export default function hero1() {
 														<svg
 															xmlns="http://www.w3.org/2000/svg"
 															color="#D22D36"
-															width={20}
+															width={30}
 															height={20}
 															fill="currentColor"
 															className="bi bi-chevron-double-up"
@@ -317,7 +317,7 @@ export default function hero1() {
 														<svg
 															xmlns="http://www.w3.org/2000/svg"
 															color="#5b3701"
-															width={25}
+															width={30}
 															height={25}
 															fill="currentColor"
 															className="bi bi-chevron-double-down"
