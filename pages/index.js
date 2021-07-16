@@ -4,7 +4,6 @@ import styles from '../styles/Home.module.css';
 import Navbar from '../components/Navbar';
 import Hero1 from '../components/Hero1';
 import Hero2 from '../components/Hero2';
-import Hero2_5 from '../components/Hero2_5';
 import LineChart from '../components/LineChart';
 
 import Hero3 from '../components/Hero3';
@@ -39,7 +38,7 @@ export default function Home() {
 			</section>
 			<Hero2 />
 			{/* map */}
-			<Hero2_5 />
+			
 			<Hero3 />
 			<Hero4 />
 		</div>
